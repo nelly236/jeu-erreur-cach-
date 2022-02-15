@@ -11,3 +11,59 @@ h1{
     text-transform : uppercase;
     text-decoration: underline yellow;
 }
+
+.vertical-line{
+    border-left: 2px solid #000;
+    display: inline-block;
+    height: 130px;
+    margin: 0 20px;
+}
+
+.ile{
+    width: 100%;
+}
+
+.ile-false{
+    width: 100%;
+}
+
+.symbole{
+    position: relative;
+}
+#hublot, #sac, #sigle, #symbole, #roue, #racine{
+    position: absolute; 
+    z-index: 99;
+    opacity: 0;
+}
+
+#hublot{
+    width: 0.6%;
+    left: 44.8%;
+    top: 40.1%;
+}
+#sac{
+    width: 1%;
+    left: 21.4%;
+    top: 59.4%;
+}
+#sigle{
+    width: 1.37%;
+    left: 31.9%;
+    top: 45.2%;
+}
+#symbole{
+    width: 0.8%;
+    left: 49.7%;
+    top: 51.5%;
+}
+#roue{
+    width: 1.2%;
+    left: 74.30%;
+    top: 60.2%;
+}
+
+#racine{
+    width: 1.2%;
+    left: 27.85%;
+    top: 60.9%;
+}

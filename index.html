@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jeu erreur caché</title>
-    <link rel="stylesheet" href="/bootstrap.css">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jeu erreur caché</title>
+        <link rel="stylesheet" href="./bootstrap.css">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
         <h1>
-            Jeu trouver les erreurs...
+            Jeu trouver les différences...
         </h1>
         <section class="row mx-0">
-            <div class="box">
-                <img src="./img/île aruba.png" class="rounded" alt="photo représentant le centre du port de l'île aruba" style="width: 50%;"> 
+            <div class="col-6 picture" >
+                <img src="./img/île aruba.png" class="ile" alt="photo représentant le centre du port de l'île aruba">       
+                <span class="vertical-line"></span>
             </div>
-            <div class="box">       
-                <img src="./img/île aruba.png" class="rounded" alt="..." style="width: 50%;">
+            <div class="col-6 symbole">
+                <img src="./img/copie-erreur-1.png" class="ile-false" alt="image sans les symboles" >
+                <img src="./img/hublot-error.png" id="hublot" alt="image d'un hublot">
+                <img src="./img/sac-blanc.png" id="sac" alt="image d'un sac en plastique blanc">
+                <img src="./img/sigle-error.png" id="sigle" alt="image du sigle sur un panneau">
+                <img src="./img/symbole-mur.png" id="symbole" alt="image des lettres d'une enseigne sur un mur">
+                <img src="./img/roue.png" id="roue" alt="image roue de secours accrocheé à la porte arrière d'un 4X4">
+                <img src="./img/racine.png" id="racine" alt="carré de terre au pied d'un palmier">
             </div>
         </section>
-</body>
-    <script src="./app.js"></script>
+        <script src="./app.js" type="text/javascript"></script>
+    </body>
+    
 </html>
